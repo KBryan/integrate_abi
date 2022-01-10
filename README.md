@@ -23,7 +23,7 @@ In the last article we compiled a deployed a simple ERC20 token and integrated i
 * stateMutability: Defines the mutability of a function. It can be one of the following values: ‘pure’ (specified not to read or write blockchain state), ‘view’ (specified when blockchain state is to be read, but no modification can be done), ‘nonpayable’ (this is the default mutability and doesn’t need to be mentioned while writing a function in code, this means a function does not accept Ether; using this we can read and write blockchain state), ‘payable’ (mentioning this means a function accepts Ether and can read/write blockchain state).
 
 
-## How to get/generate ABI?
+## How to generate the ABI and integrate it into the ChainSafe Gaming SDK?
 
 In this part of the tutorial we are going to use Remix to compile and deploy an ERC20 smart contract. Then we will verify this smart contract on etherscan and add it to the ChainSafe gaming SDK. There we will properly format the ABI and incorporate it into the ChainSafe gaming SDK. Please follow the video for how this is works.
 
