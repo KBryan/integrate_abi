@@ -4,7 +4,9 @@
 
 In the last article we compiled a deployed a simple ERC20 token and integrated it into the ChainSafe Gaming SDK. Congratualtions to anyone that followed that tutorial and got that working. In this tutorial, we will integrate the ABI or Application Binary Interface. Which for us is the interface between Ethereum and our blockchain games. The EVM or (Ethereum Virtual Machine) is at the core of the Ethereum network, and our smart contracts are pieces of code stored on the Ethereum blockchain which are executed on EVM. 
 
-As discussed in the previous tutorial, smart contracts are written Solidity and need to be compiled in EVM executable bytecode; when a smart contract is deployed, this bytecode is stored on the blockchain and is associated with an address. If you are coming from the Web 2 space this concept is very similar to an API. Although, the  ABI defines the methods and structures used to interact with the binary contract, just like the API does but on a lower-level. The ABI indicates the caller of the function to encode the needed information like function signatures and variable declarations in a format that the EVM can understand to call that function in bytecode; this is called ABI encoding.
+As discussed in the previous tutorial, smart contracts are written Solidity and need to be compiled in EVM executable bytecode; when a smart contract is deployed, this bytecode is stored on the blockchain and is associated with an address. If you are coming from the Web 2 space this concept is very similar to an API. Although, the  ABI defines the methods and structures used to interact with the binary contract, just like the API does but on a lower-level. 
+
+The ABI indicates the caller of the function to encode the needed information like function signatures and variable declarations in a format that the EVM can understand to call that function in bytecode; this is called ABI encoding.
 
 ## The elements of an ABI
 
