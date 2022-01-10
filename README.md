@@ -30,6 +30,7 @@ stateMutability: Defines the mutability of a function. It can be one of the foll
 - ‘payable’ (mentioning this means a function accepts Ether and can read/write blockchain state).
 
 
+
 ## How to generate the ABI and integrate it into the ChainSafe Gaming SDK?
 
 In this part of the tutorial we are going to use Remix to compile and deploy an ERC20 smart contract. Then we will verify this smart contract on etherscan and add it to the ChainSafe gaming SDK. There we will properly format the ABI and incorporate it into the ChainSafe gaming SDK. Please follow the video for how this is works.
