@@ -23,12 +23,11 @@ The ABI indicates the caller of the function to encode the needed information li
 * components: Used to define tuple types, if a tuple type is reached, it is represented as type = tuple [other properties of tuple elements like name, type goes here].
 
 * outputs: It is an array of output objects similar to inputs.
-
-* stateMutability: Defines the mutability of a function. It can be one of the following values: 
-* ‘pure’ (specified not to read or write blockchain state), 
-* ‘view’ (specified when blockchain state is to be read, but no modification can be done), 
-* ‘nonpayable’ (this is the default mutability and doesn’t need to be mentioned while writing a function in code, this means a function does not accept Ether; using this we can read and write blockchain state), 
-* ‘payable’ (mentioning this means a function accepts Ether and can read/write blockchain state).
+stateMutability: Defines the mutability of a function. It can be one of the following values: 
+- ‘pure’ (specified not to read or write blockchain state), 
+- ‘view’ (specified when blockchain state is to be read, but no modification can be done), 
+- ‘nonpayable’ (this is the default mutability and doesn’t need to be mentioned while writing a function in code, this means a function does not accept Ether; using this we can read and write blockchain state), 
+- ‘payable’ (mentioning this means a function accepts Ether and can read/write blockchain state).
 
 
 ## How to generate the ABI and integrate it into the ChainSafe Gaming SDK?
